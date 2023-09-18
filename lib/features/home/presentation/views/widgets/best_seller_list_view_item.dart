@@ -1,3 +1,4 @@
+import 'package:book_app/core/utils/app_router.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import '../../../../../core/utils/assets.dart';
@@ -11,7 +12,7 @@ class BestSellerListViewItem extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: (){
-        context.go("/bookDetailsView");
+        context.go(AppRouter.kBookDetailsView);
       },
       child: SizedBox(
         height: 125,
