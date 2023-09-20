@@ -16,7 +16,9 @@ class BookDetilesSection extends StatelessWidget {
       children: [
         Padding(
           padding: EdgeInsets.symmetric(horizontal: width * .2),
-          child: const CustomBookImage(),
+          child: const CustomBookImage(
+            imageURL: 'https://miro.medium.com/v2/resize:fit:828/format:webp/1*m5eYW0Qgmdse1bpkqbsPLQ.png',
+          ),
         ),
         const SizedBox(
           height: 43,
